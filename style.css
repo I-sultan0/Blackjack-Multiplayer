@@ -1,0 +1,112 @@
+body {
+  background-image: url("./images/pexels-dids-2508565.jpg");
+  background-position: left;
+  opacity: 1;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+
+.container {
+  /* border: 1px solid black; */
+  width: 75%;
+  text-align: center;
+  margin: 0 auto;
+}
+.container h1 {
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  text-decoration: underline;
+}
+#blackjack-result {
+  text-decoration: underline;
+}
+.flex-blackjack-row-1,
+.flex-blackjack-row-2,
+.flex-blackjack-row-3 {
+  display: flex;
+  border: 1px solid black;
+  padding: 10px;
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+  justify-content: space-around;
+}
+.flex-blackjack-row-1,
+.flex-blackjack-row-2 {
+  background: url("https://media.istockphoto.com/vectors/black-jack-table-vector-illustration-eps-10-casino-vector-id1147481668?k=6&m=1147481668&s=612x612&w=0&h=dWgHTNuzvPQcICP2jSQHHMld-A4Mqm2_8YqGv9YoyWM=");
+  background-size: 83%;
+  background-position: top;
+  color: #ffff;
+}
+.flex-blackjack-row-1 div {
+  border: 1px solid black;
+  padding: 10px;
+  height: 350px;
+  flex: 1;
+}
+.flex-blackjack-row-1 img {
+  width: 25%;
+  padding: 10px;
+}
+.flex-blackjack-row-2 button {
+  /* border: 1px solid black; */
+  padding: 10px;
+  margin: 10px;
+}
+.flex-blackjack-row-2 div {
+  /* border: 1px solid black; */
+  padding: 10px;
+}
+.flex-blackjack-row-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+table,
+th,
+td {
+  padding: 5px;
+  border: 1px solid black;
+}
+.footer h3 {
+  color: black;
+}
+.footer span a {
+  color: black;
+}
+
+.footer span a:hover {
+  cursor: pointer;
+  color: red;
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-image: none;
+  }
+
+  .container {
+    width: 100%;
+  }
+  .flex-blackjack-row-1 {
+    display: block;
+    background-position: bottom;
+    background-size: cover;
+  }
+  .flex-blackjack-row-2 {
+    background-image: none;
+  }
+  .flex-blackjack-row-1 img {
+    width: 20%;
+    height: 45%;
+  }
+  .flex-blackjack-row-1 div {
+    height: 190px;
+  }
+  .footer span a {
+    color: red;
+  }
+}
+@media screen and (max-width: 850px) {
+  .flex-blackjack-row-1 {
+    background-size: cover;
+  }
+}
