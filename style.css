@@ -4,6 +4,7 @@ body {
   opacity: 1;
   /* background-repeat: no-repeat; */
   background-size: cover;
+  background-color: rgb(234, 243, 243);
 }
 
 .container {
@@ -24,15 +25,14 @@ body {
 .flex-blackjack-row-2,
 .flex-blackjack-row-3 {
   display: flex;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 10px;
   flex-wrap: wrap;
   /* flex-direction: row; */
   justify-content: space-around;
 }
-.flex-blackjack-row-1,
-.flex-blackjack-row-2 {
-  background: url("https://media.istockphoto.com/vectors/black-jack-table-vector-illustration-eps-10-casino-vector-id1147481668?k=6&m=1147481668&s=612x612&w=0&h=dWgHTNuzvPQcICP2jSQHHMld-A4Mqm2_8YqGv9YoyWM=");
+.flex-blackjack-row-1 {
+  background: url("https://media.istockphoto.com/photos/poker-table-picture-id1046326882?k=6&m=1046326882&s=612x612&w=0&h=FWwERAhFegLxTvxXw2uEyDg1ua1DiV-bXImf9ENaXDg=");
   background-size: 83%;
   background-position: top;
   color: #ffff;
@@ -100,6 +100,7 @@ td {
   }
   .flex-blackjack-row-1 div {
     height: 190px;
+    border: none;
   }
   .footer span a {
     color: red;
